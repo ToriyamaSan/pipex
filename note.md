@@ -28,3 +28,11 @@ zeta
 
 #include <sys/wait.h> : controle si le programme se termine correcement avec la bonne sortie
 #include <sys/types.h> : dans un programme C sert à inclure un fichier qui définit des types spécifiques au système d'exploitation comme 'pid'
+
+R_OK : verifie si le fichier est accessible en lecture (utiliser pour input_file)
+F_OK : verifie l existence du fichier (utiliser pour le output_file)
+W_OK : verifie si le output_file est en mode ecriture
+
+access : utilisée pour vérifier les permissions d'accès d'un fichier ou d'un répertoire. Elle permet de tester si un fichier ou répertoire existe, et si l'utilisateur a les droits nécessaires pour effectuer certaines opérations sur ce fichier (comme la lecture, l'écriture ou l'exécution)
+
+exit(EXIT_FAILURE)

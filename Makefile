@@ -8,7 +8,7 @@ RM			= rm -f
 FLAGS		= -Wall -Wextra -Werror -Iinc
 
 SRCS 		= \
-./src/pipex.c
+./src/pipex.c ./src/utils.c
 
 OBJS 		= $(SRCS:.c=.o)
 
